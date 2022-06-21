@@ -26,7 +26,7 @@ d = D()
 
 **Definition:  ```_mor_```** records the order in which each class is inherited.
 
-**Example: **
+**Example**
 ```
 D.__mro__
 ```
@@ -41,11 +41,11 @@ output:
 
 **Definition: super(class, obj)** returns the superclass of class in obj by ```_mor_```.
 
-**Example: **
+**Example**
 
 ```super(C, d).name()``` output: A
 
-**Explaination: **
+**Explaination**
 
 mor for d is (__main__.D, __main__.C, __main__.A, __main__.B, object), in this the superclass of C is **A** 
 
